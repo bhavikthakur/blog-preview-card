@@ -18,5 +18,9 @@ Footer.propTypes = {
   author: PropTypes.string.isRequired,
 };
 
+Footer.defaultProps = {
+  author: "Unknown",
+};
+
 Footer.displayName = "Footer";
 export default Footer;
