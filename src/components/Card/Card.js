@@ -6,7 +6,7 @@ function Card() {
   return (
     <div className="card">
       <Header
-        patternSrc="assets/images/illustration-article.svg"
+        patternSrc={`${process.env.PUBLIC_URL}/assets/images/illustration-article.svg`}
         patternAlt="An abstract yellow and black pattern"
         btn="Learning"
         publish="Published 21 Dec 2023"
@@ -19,7 +19,7 @@ function Card() {
         content, and presentation"
       />
       <Footer
-        avatarSrc="/assets/images/image-avatar.webp"
+        avatarSrc={`${process.env.PUBLIC_URL}/assets/images/image-avatar.webp`}
         avatarAlt="Avatar"
         author="Greg Hooper"
         authorHref="https://www.linkedin.com/in/bhavik-thakur/"
