@@ -1,12 +1,14 @@
 import Header from "./Header.js";
 import Main from "./Main.js";
 import Footer from "./Footer.js";
+import PatternSrc from "../../assets/images/illustration-article.svg";
+import AuthorSrc from "../../assets/images/image-avatar.webp";
 
 function Card() {
   return (
     <div className="card">
       <Header
-        patternSrc={`${process.env.PUBLIC_URL}/assets/images/illustration-article.svg`}
+        patternSrc={PatternSrc}
         patternAlt="An abstract yellow and black pattern"
         btn="Learning"
         publish="Published 21 Dec 2023"
@@ -19,7 +21,7 @@ function Card() {
         content, and presentation"
       />
       <Footer
-        avatarSrc={`${process.env.PUBLIC_URL}/assets/images/image-avatar.webp`}
+        avatarSrc={AuthorSrc}
         avatarAlt="Avatar"
         author="Greg Hooper"
         authorHref="https://www.linkedin.com/in/bhavik-thakur/"

@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+
 function Header({ patternSrc, patternAlt, btnHref, btn, publish }) {
   return (
     <header className="card__header">
