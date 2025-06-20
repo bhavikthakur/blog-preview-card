@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/blog-preview-card/static/css/main.5e3abd21.css",
-    "main.js": "/blog-preview-card/static/js/main.78fa16d8.js",
+    "main.css": "/blog-preview-card/static/css/main.277552ef.css",
+    "main.js": "/blog-preview-card/static/js/main.2c8045f1.js",
     "static/js/453.6f4750ec.chunk.js": "/blog-preview-card/static/js/453.6f4750ec.chunk.js",
     "static/media/Figtree-ExtraBold.ttf": "/blog-preview-card/static/media/Figtree-ExtraBold.4f69ac3b22741c171be3.ttf",
     "static/media/Figtree-Medium.ttf": "/blog-preview-card/static/media/Figtree-Medium.6f5a7d209753528d9c41.ttf",
     "static/media/illustration-article.svg": "/blog-preview-card/static/media/illustration-article.082cca317c8b4b2c973fa73013373085.svg",
     "static/media/image-avatar.webp": "/blog-preview-card/static/media/image-avatar.79dc6fdb93748b6b0120.webp",
     "index.html": "/blog-preview-card/index.html",
-    "main.5e3abd21.css.map": "/blog-preview-card/static/css/main.5e3abd21.css.map",
-    "main.78fa16d8.js.map": "/blog-preview-card/static/js/main.78fa16d8.js.map",
+    "main.277552ef.css.map": "/blog-preview-card/static/css/main.277552ef.css.map",
+    "main.2c8045f1.js.map": "/blog-preview-card/static/js/main.2c8045f1.js.map",
     "453.6f4750ec.chunk.js.map": "/blog-preview-card/static/js/453.6f4750ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e3abd21.css",
-    "static/js/main.78fa16d8.js"
+    "static/css/main.277552ef.css",
+    "static/js/main.2c8045f1.js"
   ]
 }
