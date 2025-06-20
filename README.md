@@ -1,70 +1,131 @@
-# Getting Started with Create React App
+# 📝 Blog Preview Card
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive blog preview card component built with React. This project showcases clean component architecture, semantic HTML, and beautiful CSS styling with smooth hover effects
 
-## Available Scripts
+[🔗 **LIVE URL**](https://bhavikthakur.github.io/blog-preview-card/)
 
-In the project directory, you can run:
+## 🌟 Features
 
-### `npm start`
+- 🎨 Modern Design - Clean, minimalist card layout with subtle shadows and rounded corners
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 📱 Fully Responsive - Adapts beautifully from mobile to desktop screens
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ⚡ Smooth Interactions - Elegant hover and focus states with CSS transitions
 
-### `npm test`
+- 🧩 Component Architecture - Modular React components with proper prop validation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🎯 Performance Optimized - Lazy loading images and optimized font loading
 
-### `npm run build`
+## 📸 Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Desktop View](design/desktop-design.jpg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Mobile view](design/mobile-design.jpg)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Built With
 
-### `npm run eject`
+- React 18 - Modern React with functional components and hooks
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- CSS3 - Custom properties, Flexbox, and responsive design
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- PropTypes - Runtime type checking for React props
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Create React App - Zero-configuration React setup
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🏗️ Project Structure
 
-## Learn More
+```src/
+├── components/
+│ └── Card/
+│ ├── index.js # Barrel exports
+│ ├── Card.js # Main card container
+│ ├── Header.js # Card header with image and tag
+│ ├── Main.js # Card content area
+│ └── Footer.js # Card footer with author
+├── assets/
+│ ├── fonts/
+│ │ └── static/
+│ │ ├── Figtree-Medium.ttf
+│ │ └── Figtree-ExtraBold.ttf
+│ └── images/
+│ ├── illustration-article.svg
+│ └── image-avatar.webp
+├── App.js
+├── index.js
+└── index.css
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ⚙️ Installation & Setup
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone the repository
 
-### Code Splitting
+```bash
+git clone https://github.com/your-username/blog-preview-card.git
+cd blog-preview-card
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Install dependencies
 
-### Analyzing the Bundle Size
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3. Start development server
 
-### Making a Progressive Web App
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+4. Build for production
 
-### Advanced Configuration
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🎨 Design Decisions
 
-### Deployment
+### Color Palette
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```--clr-yellow-500: hsl(47, 88%, 63%)   /* Primary accent */
+--clr-white-200: hsl(0, 0%, 100%)       /* Card background */
+--clr-grey-500: hsl(0, 0%, 42%)       /* Secondary text */
+--clr-grey-900: hsl(0, 0%, 7%)        /* Primary text */
+```
 
-### `npm run build` fails to minify
+### Typography
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Font Family:** Figtree (Google Fonts)
+
+- **Weights:** 500 (Medium), 900 (Extra Bold)
+
+- **Responsive scaling:** 0.85rem mobile → 1rem desktop
+
+### Component Architecture
+
+- **Separation of Concerns:** Each component handles a specific part of the card
+
+- **Prop Validation:** All components use PropTypes for type safety
+
+- **Reusability:** Components are designed to be easily reusable
+
+- **Accessibility:** Semantic HTML and proper ARIA attributes
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgments
+
+- Frontend Mentor for the design challenge
+
+- Google Fonts for the Figtree font family
+
+- React community for excellent documentation and resources
+
+## 👨‍💻 Author
+
+#### Bhavik Thakur
+
+[Github](https://github.com/bhavikthakur) | [LinkedIn](https://www.linkedin.com/in/bhavik-thakur/)
+
+⭐ If you found this project helpful, please give it a star! ⭐

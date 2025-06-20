@@ -12,7 +12,9 @@ function Header({ patternSrc, patternAlt, btnHref, btn, publish }) {
       <a href={btnHref} className="card__btn">
         {btn}
       </a>
-      <p className="card__publish">{publish}</p>
+      <time dateTime="2023-12-21" className="card__publish">
+        {publish}
+      </time>
     </header>
   );
 }
